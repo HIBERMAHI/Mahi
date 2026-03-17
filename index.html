@@ -21,19 +21,38 @@
       </nav>
       <div class="row">
         <div class="col-3 bg-succes">
-          <ul
-            class="list-group bg-secondary"
-            style="background-color: rgb(221, 179, 179)"
-          >
-            <li class="list-group-item">Dashboard</li>
-            <li class="list-group-item">Registration</li>
-            <li class="list-group-item">PortFolio</li>
-            <li class="list-group-item">Reports</li>
-            <li class="list-group-item">Settings</li>
-          </ul>
-          <div class="boy"  >
-            <img class="image my-4  "   src="office.avif"  width="90px" height="90px"/>
-            <p class="para my-5 "  >Manging Director</p>
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action active"
+              aria-current="true"
+            >
+              Dashboard
+            </a>
+            <a href="#" class="list-group-item list-group-item-action"
+              >Stock Registration</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >PortFolio</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Reports</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action disabled"
+              aria-disabled="true"
+              >Settings</a
+            >
+          </div>
+          <div class="boy">
+            <img
+              class="image my-4"
+              src="office.avif"
+              width="90px"
+              height="90px"
+            />
+            <p class="para my-5">Manging Director</p>
           </div>
         </div>
         <div class="col-9" my-5>
@@ -204,21 +223,13 @@
             </div>
             <div class="row">
               <div class="col" id="button">
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  style="margin-top: 20px"
-                >
-                  Reset
+                <button type="button" class="btn btn-danger btn-lg">
+                  Review Stock Information
                 </button>
               </div>
               <div class="col" id="button">
-                <button
-                  type="button"
-                  class="btn btn-light"
-                  style="margin-top: 20px"
-                >
-                  Submit
+                <button type="button" class="btn btn-success btn-lg">
+                  Register Stock Information
                 </button>
               </div>
             </div>
